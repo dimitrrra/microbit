@@ -1,0 +1,96 @@
+input.onButtonPressed(Button.A, () => {
+    for (let i = 0; i < 3; i++) {
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            # # # # #
+            . . . . .
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . # # # .
+            . . . . .
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . . # . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . # # # .
+            . . . . .
+            `)
+    }
+})
+input.onButtonPressed(Button.B, () => {
+    for (let i = 0; i < 3; i++) {
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            # # # # #
+            # . . . #
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . # # # .
+            . # . # .
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . # # # .
+            . # . # .
+            `)
+    }
+})
+input.onButtonPressed(Button.AB, () => {
+    for (let i = 0; i < 4; i++) {
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            # . . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . # . # .
+            . # # # .
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . # . # .
+            . # . # .
+            . . . . .
+            . # . # .
+            . # # # .
+            `)
+    }
+})
